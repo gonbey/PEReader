@@ -1,0 +1,62 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<title>実行ファイル解析君</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<link rel="stylesheet" href="./css/jquery.json-viewer.css">
+<script src="//code.jquery.com/jquery-1.12.0.min.js"></script>
+<script src="./js/jquery.json-viewer.js"></script>
+<link rel="stylesheet"
+	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+<script type="text/javascript" src="./js/upload.js"></script>
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<p>
+			<h1 id="title">実行ファイル解析君</h1>
+			</p>
+		</div>
+		<div class="row">
+			<div class="col-md-4 col-lg-4"></div>
+			<div class="col-md-4 col-lg-4"></div>
+		</div>
+		<div class="row">
+			<div class="col-md-2 col-lg-2"></div>
+			<div class="col-md-8 col-lg-8">
+				<div class="panel panel-default">
+					<div class="panel-body">
+					<ul>
+						<li>64bitイメージ(magicが20b)を読み込むとoptional header以降で値がずれます。(magicで条件分岐していないため)</li>
+						<li>32bitイメージファイルだけでとりあえずお願いします。</li>
+						<li>C:\Windows\winhlp32.exeとか32bit実行ファイルです。</li>
+						<li>dllとかも大丈夫です。</li>
+					</ul>
+
+					</div>
+				</div>
+				<div class="well well-sm">
+					<br />
+					<form id="data_upload_form" enctype="multipart/form-data"
+						method="post">
+						<div class="form-group">
+							<label>■ファイル指定：</label> <input type="file" id="upload_file"
+								name="upload_file" required="" />
+						</div>
+						<div class="form-group">
+							<input id="data_upload_button" type="submit" value="アップロード" />
+						</div>
+					</form>
+				</div>
+				<div class="panel panel-default">
+					<div class="panel-body">
+						<div id="json-viewer"></div>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-2 col-lg-2"></div>
+		</div>
+	</div>
+</body>
+</html>
