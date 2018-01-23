@@ -5,7 +5,7 @@ $(function(){
         // 要素規定の動作をキャンセルする
         event.preventDefault();
 
-        var ajaxUrl = "http://localhost:8080/file/upload"
+        var ajaxUrl = "./file/upload"
 
         if(window.FormData){
             var formData = new FormData($(this)[0]);
