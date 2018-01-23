@@ -8,3 +8,7 @@ logging.:
     level.: INFO
     level.root: INFO
     level.ROOT: INFO
+server:
+    port: 80
+
+    
