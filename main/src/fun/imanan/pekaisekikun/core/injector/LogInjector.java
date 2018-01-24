@@ -1,4 +1,4 @@
-package fun.imanan.pekaisekikun.io.core.injector;
+package fun.imanan.pekaisekikun.core.injector;
 import java.lang.reflect.Field;
 
 import org.slf4j.Logger;
@@ -8,7 +8,7 @@ import org.springframework.beans.factory.config.BeanPostProcessor;
 import org.springframework.stereotype.Component;
 import org.springframework.util.ReflectionUtils;
 
-import fun.imanan.pekaisekikun.io.core.annotation.Log;
+import fun.imanan.pekaisekikun.core.annotation.Log;
 
 @Component
 public class LogInjector implements BeanPostProcessor {

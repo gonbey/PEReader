@@ -1,4 +1,4 @@
-package fun.imanan.pekaisekikun.io.main;
+package fun.imanan.pekaisekikun.main;
 
 import java.io.File;
 import java.nio.charset.Charset;
@@ -8,10 +8,10 @@ import java.util.Map;
 import java.util.stream.Collectors;
 
 import fun.imanan.pekaisekikun.io.MyFileInputStream;
-import fun.imanan.pekaisekikun.io.pe.ImageDosHeader;
-import fun.imanan.pekaisekikun.io.pe.ImageNtHeaders;
-import fun.imanan.pekaisekikun.io.pe.ImageSectionHeaders;
-import fun.imanan.pekaisekikun.io.util.Util;
+import fun.imanan.pekaisekikun.pe.ImageDosHeader;
+import fun.imanan.pekaisekikun.pe.ImageNtHeaders;
+import fun.imanan.pekaisekikun.pe.ImageSectionHeaders;
+import fun.imanan.pekaisekikun.util.Util;
 
 public class Main {
 

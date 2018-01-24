@@ -1,4 +1,4 @@
-package fun.imanan.pekaisekikun.io.core.annotation;
+package fun.imanan.pekaisekikun.core.annotation;
 
 import static java.lang.annotation.ElementType.*;
 import static java.lang.annotation.RetentionPolicy.*;
