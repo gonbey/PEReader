@@ -1,4 +1,4 @@
-package fun.imanan.pekaisekikun.io.main;
+package fun.imanan.pekaisekikun.main;
 
 import java.io.BufferedOutputStream;
 import java.io.File;
@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.multipart.MultipartFile;
 
 import ch.qos.logback.classic.Logger;
-import fun.imanan.pekaisekikun.io.core.annotation.Log;
+import fun.imanan.pekaisekikun.core.annotation.Log;
 
 @RestController
 public class MyController {

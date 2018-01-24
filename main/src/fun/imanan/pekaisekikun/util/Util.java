@@ -1,4 +1,4 @@
-package fun.imanan.pekaisekikun.io.util;
+package fun.imanan.pekaisekikun.util;
 
 public class Util {
 	public static String toHexString(short in) {

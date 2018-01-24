@@ -1,4 +1,4 @@
-package fun.imanan.pekaisekikun.io.pe;
+package fun.imanan.pekaisekikun.pe;
 
 import java.io.IOException;
 import java.lang.reflect.InvocationTargetException;
